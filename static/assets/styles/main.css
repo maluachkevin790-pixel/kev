@@ -1,0 +1,203 @@
+h1{
+background-color: red;
+color: blue;
+text-align: center;
+}
+body{
+color: green;
+background: black;
+}
+.navbar-custom {
+      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+ul {
+        list-style-type: square;
+        padding: 0;
+    }
+
+    li {
+        padding: 8px;
+        background-color: #f2f2f2;
+        margin-bottom: 5px;
+        border-radius: 5px;
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .form-container {
+            width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+        body {
+            padding-top: 50px;
+        }
+
+        .about-section {
+            padding: 40px 0;
+            background-color: #f8f9fa;
+        }
+
+        .carousel img {
+            height: 400px;
+            object-fit: cover;
+        }
+     body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Map styling */
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 450px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        /* Form styling */
+        .form-container {
+            flex: 1;
+            min-width: 300px;
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .form-container textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-container button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #555;
+        }
+
+        /* Responsive: stack on small screens */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
