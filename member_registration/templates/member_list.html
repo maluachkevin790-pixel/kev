@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Member List</title>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="../../static/assets/styles/main.css">
-</head>
-<body>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="member_details.html">Add Member</a>
-    <a href="member_list.html">Member List</a>
-</nav>
-
+{% extends 'base.html' %}
+{% block content %}
 <h2>Member List</h2>
 
 <table>
@@ -70,12 +57,4 @@
     <button onclick="history.back()">Back</button>
 </div>
 
-</body>
-<footer>
-    <div class="footer-content">
-        <p>&copy; 2026 Your Organization Name. All rights reserved.</p>
-        <p>Contact: info@yourorg.com | Phone: 555-0000</p>
-    </div>
-</footer>
-
-</html>
+{% endblock %}

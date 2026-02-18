@@ -81,6 +81,7 @@ nav a:hover {
     color: #4CAF50;
 }
 
+}
 /* Heading */
 h2 {
     text-align: center;
@@ -201,3 +202,83 @@ tr:hover {
             .container {
                 flex-direction: column;
             }
+      body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Map styling */
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 450px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        /* Form styling */
+        .form-container {
+            flex: 1;
+            min-width: 300px;
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .form-container textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-container button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #555;
+        }
+
+        /* Responsive: stack on small screens */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
